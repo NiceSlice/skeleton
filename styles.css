@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 200vh;
+}
+
+.layout {
+  max-width: 70rem;
+  width: 100%;
+  margin: auto;
+}
+
+.parallax-container {
+  background-color: #e9e9f7;
+  width: 100%;
+  position: relative;
+  padding-top: 14rem;
+}
+
+.parallax-layer {
+  width: 100%;
+  position: absolute;
+  display: block;
+  bottom: 0;
+}
+
+.layer-1 {
+  z-index: 4;
+  position: relative;
+}
+
+.layer-2 {
+  z-index: 3;
+  bottom: 6rem;
+}
+
+.layer-3 {
+  z-index: 2;
+  bottom: 12.5rem;
+}
+
+.layer-4 {
+  z-index: 1;
+  bottom: 11rem;
+}
+
+.layer-5 {
+  bottom: 15.5rem;
+}
+
+.intro {
+  width: 100%;
+  height: 20rem;
+  background-color: #2b2f59ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
