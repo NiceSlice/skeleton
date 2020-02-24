@@ -1,27 +1,118 @@
-function bottomValue(bottom, scroll){
-    let result = (250 - scroll) * (bottom/250);
-    console.log(bottom, scroll, result);//15.5 2 0 //15.5 2 15.5
-    //15.5 371 14
+function RangeToHeight(bottomRangeH500, height){//makes bottom value relative to height in case that height != 500
+
+
+    let c = (bottomRangeH500[0] / 500) * height;
+    let d = (bottomRangeH500[1] / 500) * height;
+
+    return [c, d];
+
+    /*
+    500 - 0
+    a - b
+
+    height - 0
+    c - d
+
+    a / 500 = c / height
+    b / 500 = d / height
+
+    c = a / 500 * height
+    d = b / 500 * height
+    */
+
+}
+
+function bottom(bottomRange, scrollRange, scroll){
+
+    let result = Math.abs(scrollRange[0] - scrollRange[1]);
+    result = (result - scroll) / result;
+    result = result * Math.abs(bottomRange[0] - bottomRange[1]);
+    result = result + bottomRange[1];
+
     return result.toString() + 'rem';
 }
+
+
+
 
 function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 r(function(){
 
-    //document.getElementsByClassName('layer-1')[0].style.bottom = '-10rem';
+    const scrollRangeH500 = [0, 250];
+    const bottomRangeH500 = {
+        layer2: [6.5, 5],
+        layer3: [9.5, 6],
+        layer4: [14, 9],
+    }
 
+
+
+    //page offset
+    let height = document.getElementById('parallax-container').offsetHeight;
+    let scroll = window.scrollY;
+   
+    
+    let scrollRange = RangeToHeight(scrollRangeH500, height);
+    let bottomRange = {};
+    for(let i = 2; i <= 4; i++){
+        bottomRange['layer' + i] = RangeToHeight(bottomRangeH500['layer' + i], height);
+    }
+
+    if(scroll > scrollRange[1]){
+        scroll = scrollRange[1];
+    }
+    for(let i = 2; i <= 4; i++){
+        document.getElementById('layer' + i).style.bottom = bottom(bottomRange['layer' + i], scrollRange, scroll);
+
+    }
+
+    
+
+
+    //resize
+    window.addEventListener('resize', function(event){
+
+        height = document.getElementById('parallax-container').offsetHeight;
+
+        scrollRange = RangeToHeight(scrollRangeH500, height);
+        for(let i = 2; i <= 4; i++){
+            bottomRange['layer' + i] = RangeToHeight(bottomRangeH500['layer' + i], height);
+        }
+
+        scroll = this.scrollY;
+      
+        if(scroll > scrollRange[1]){
+            scroll = scrollRange[1];
+        }
+        for(let i = 2; i <= 4; i++){
+
+            document.getElementById('layer' + i).style.bottom = bottom(bottomRange['layer' + i], scrollRange, scroll);
+
+        }
+
+
+    })
+
+
+    //scroll
     window.addEventListener('scroll', function(event){
-        var scroll = this.scrollY;
+        let scroll = this.scrollY;
 
-        if(scroll <= 250){
+        if(scroll <= scrollRange[1]){
 
-            document.getElementsByClassName('layer-5')[0].style.bottom = bottomValue(15.5, scroll);
-            document.getElementsByClassName('layer-4')[0].style.bottom = bottomValue(11, scroll);
-            document.getElementsByClassName('layer-3')[0].style.bottom = bottomValue(12.5, scroll);
-            document.getElementsByClassName('layer-2')[0].style.bottom = bottomValue(6, scroll);
+            for(let i = 2; i <= 4; i++){
+
+                document.getElementById('layer' + i).style.bottom = bottom(bottomRange['layer' + i], scrollRange, scroll);
+    
+            }
 
         }
 
     });
+   
 
 });
+
+/*
+works, just adjust
+*/
