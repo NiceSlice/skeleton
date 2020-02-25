@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="2859.3379"
-     inkscape:cy="-2898.6512"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="6162.3275"
+     inkscape:cy="-10976.39"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1536,27 +1536,33 @@
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222" />
     <g
-       id="g1361"
-       inkscape:export-filename="/home/tanja/Documents/portfolio/skeleton/assets/layer5.png"
-       inkscape:export-xdpi="71.999985"
-       inkscape:export-ydpi="71.999985">
-      <rect
-         style="opacity:1;fill:#e9e9f7;fill-opacity:0;stroke:none;stroke-width:0.33120751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect1242"
-         width="529.16669"
-         height="23.208021"
-         x="1313.5295"
-         y="3128.425"
-         ry="0" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#989bcf;fill-opacity:1;stroke:none;stroke-width:0.25570044px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 1645.222,3104.2331 c -0.3741,0 -1.1654,3.5414 -1.6636,5.2779 -2.0017,-0.3378 -4.0109,-0.4957 -6.0199,-0.4061 -14.3375,0.6393 -22.979,11.6551 -36.7,11.113 -13.7211,-0.5424 -20.3532,0.793 -27.5448,3.4984 -7.1915,2.7053 -16.258,-2.8154 -28.1725,-3.47 -11.9145,-0.6545 -16.4378,9.3144 -27.3964,7.1227 -10.9586,-2.1918 -43.1042,-19.1772 -60.6379,-21.369 -17.5338,-2.1916 -39.7869,0.9944 -54.3292,4.9289 -13.2356,3.5809 -12.2325,14.2486 -12.2325,14.2486 0,0 49.4541,14.8551 72.9542,24.4744 23.5001,9.6192 83.1026,18.0812 83.1026,18.0812 0,0 -8.7666,-5.1138 -2.9221,-13.8806 5.8446,-8.767 52.6778,-9.7819 69.4042,-5.1141 15.7073,4.3834 195.0632,2e-4 196.5243,-2.9221 1.4612,-2.9223 -62.2815,-12.2374 -72.5095,-15.1596 -10.2281,-2.9223 -47.4871,-10.2281 -59.1762,-10.2281 -9.2784,0 -20.2255,-7.5321 -31.5166,-10.3214 -0.1571,-1.286 -0.7441,-5.8741 -1.1641,-5.8741 z"
-         id="path1244"
+       id="g1112"
+       inkscape:export-filename="/home/tanja/Documents/portfolio/skeleton/assets/layer4.png"
+       inkscape:export-xdpi="57"
+       inkscape:export-ydpi="57">
+      <g
+         inkscape:export-ydpi="57.635315"
+         inkscape:export-xdpi="57.635315"
          inkscape:export-filename="/home/tanja/Documents/portfolio/skeleton/assets/layer5.png"
-         inkscape:export-xdpi="222"
-         inkscape:export-ydpi="222"
-         sodipodi:nodetypes="scccccccsccccsccscs" />
+         id="g1361">
+        <rect
+           ry="0"
+           y="3128.425"
+           x="1313.5295"
+           height="23.208021"
+           width="529.16669"
+           id="rect1242"
+           style="opacity:1;fill:#e9e9f7;fill-opacity:0;stroke:none;stroke-width:0.33120751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="scccccccsccccsccscs"
+           inkscape:export-ydpi="72.508942"
+           inkscape:export-xdpi="72.508942"
+           inkscape:export-filename="/home/tanja/Documents/portfolio/skeleton/assets/layer4.png"
+           id="path1244"
+           d="m 1645.222,3104.2331 c -0.3741,0 -1.1654,3.5414 -1.6636,5.2779 -2.0017,-0.3378 -4.0109,-0.4957 -6.0199,-0.4061 -14.3375,0.6393 -22.979,11.6551 -36.7,11.113 -13.7211,-0.5424 -20.3532,0.793 -27.5448,3.4984 -7.1915,2.7053 -16.258,-2.8154 -28.1725,-3.47 -11.9145,-0.6545 -16.4378,9.3144 -27.3964,7.1227 -10.9586,-2.1918 -43.1042,-19.1772 -60.6379,-21.369 -17.5338,-2.1916 -39.7869,0.9944 -54.3292,4.9289 -13.2356,3.5809 -12.2325,14.2486 -12.2325,14.2486 0,0 75.1187,4.8009 98.6188,14.4202 23.5001,9.6192 48.0836,17.6584 48.0836,17.6584 0,0 0.9152,0.1715 6.4323,-3.4036 5.8446,-8.767 52.6778,-9.7819 69.4042,-5.1141 15.7073,4.3834 195.0632,2e-4 196.5243,-2.9221 1.4612,-2.9223 -62.2815,-12.2374 -72.5095,-15.1596 -10.2281,-2.9223 -47.4871,-10.2281 -59.1762,-10.2281 -9.2784,0 -20.2255,-7.5321 -31.5166,-10.3214 -0.1571,-1.286 -0.7441,-5.8741 -1.1641,-5.8741 z"
+           style="fill:#989bcf;fill-opacity:1;stroke:none;stroke-width:0.25570044px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
     <g
        id="g1357"
@@ -1803,31 +1809,7 @@
        y="1083.822"
        x="821.15283"
        id="image1115"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAB1FBMVEVHcEwAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT4r5T
-AAAAm3RSTlMA3wHo/Bn7BP4DBQr3R+yz9rhW4aPHNhyiAo3ukf2/JMntzjjd4sOuLRM8ZUbrifCO
-DVD6Wl/lIaesMPkWXiUGSS/UELX43l3EZ6pIi2zykNMP2Lmanz2AYaTnI8ipKM1rCUzSlNwYHUGE
-ImoIS9FvsvUxEtt5vDvgfsZk6iZpDPSScxG2WZw6wKGmRKsqz20LTvNTFVgaoD7jgS+SmCAAAAJm
-SURBVFjD7djVVxtBFAbwJSFhSUhKSAIxQnFatLgUikNdoO7u7u4ObaEC7f1ne6jmTiZ0mP36tt/j
-7jm/h9mZe++sYdixY8dqPGOB+tLdRf9BrqughdxajYajTSb9TCdYXtNFv2PugMq5++lvtuQg6QZK
-zQOgfN5ktP8qTPaOEs8xGH1dkCm7BrU72kWakiDaR+kpwNCbJXTQC6GrJDR9g9B7ZHReB4IekdHU
-haDzpTT5ALRfTg8CSslyOU13rdOhDPQN6/ShDHSZdfp+BnoS8B1HpbJ7GkDvlNJNiI19MlsiO7dC
-jvqwhB7D1L6X6fK4A1SyJ9L6TDeqhZWL9AtcT38j0DdxtKuR0x042njP6RnkaMbr351coL13E7Mb
-kHNfLV+SXUh7He+7hUB6RRazv7qA9sBlZh99CrRb+XKHPwDtGLeXAe8HOQFuv3bg7FVl3H4MtF18
-m1DIg7NL7gnr7cXZK4UZsGoIZ/f3cPvCF/a6ZvtgslZ36zS3cLs95cwPJdwLj7b1a9of3dweafv1
-wtHr/PMNzujZbcVCQ0v8qN9XxlMe9SQeatlrRTvc3HdqThiFgnr3tFY3KeTVgI5d0KJiF0c+adhH
-8lRsil/UaKPr85VsejevcS5L1Wyzc+n/qw5kqdkUXPp/NtdBRTukUb8DanS9Tt+JKdF+rcPz+ZEC
-PaxXULoVPuZz3dmn+l/yNf3W3zu7+Maus9B5+vYtRm+wNn9vbMwoT0UttswTEVMuV5+z3o8Ln8nW
-+XTUQKT8knjnrvAZqBTdPp4CVz45jLw8GCVnI2FnPF6ZjL31GHbs2LEDzXfdBIOzTFGrqgAAAABJ
-RU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAB1FBMVEVHcEwAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT4r5T AAAAm3RSTlMA3wHo/Bn7BP4DBQr3R+yz9rhW4aPHNhyiAo3ukf2/JMntzjjd4sOuLRM8ZUbrifCO DVD6Wl/lIaesMPkWXiUGSS/UELX43l3EZ6pIi2zykNMP2Lmanz2AYaTnI8ipKM1rCUzSlNwYHUGE ImoIS9FvsvUxEtt5vDvgfsZk6iZpDPSScxG2WZw6wKGmRKsqz20LTvNTFVgaoD7jgS+SmCAAAAJm SURBVFjD7djVVxtBFAbwJSFhSUhKSAIxQnFatLgUikNdoO7u7u4ObaEC7f1ne6jmTiZ0mP36tt/j 7jm/h9mZe++sYdixY8dqPGOB+tLdRf9BrqughdxajYajTSb9TCdYXtNFv2PugMq5++lvtuQg6QZK zQOgfN5ktP8qTPaOEs8xGH1dkCm7BrU72kWakiDaR+kpwNCbJXTQC6GrJDR9g9B7ZHReB4IekdHU haDzpTT5ALRfTg8CSslyOU13rdOhDPQN6/ShDHSZdfp+BnoS8B1HpbJ7GkDvlNJNiI19MlsiO7dC jvqwhB7D1L6X6fK4A1SyJ9L6TDeqhZWL9AtcT38j0DdxtKuR0x042njP6RnkaMbr351coL13E7Mb kHNfLV+SXUh7He+7hUB6RRazv7qA9sBlZh99CrRb+XKHPwDtGLeXAe8HOQFuv3bg7FVl3H4MtF18 m1DIg7NL7gnr7cXZK4UZsGoIZ/f3cPvCF/a6ZvtgslZ36zS3cLs95cwPJdwLj7b1a9of3dweafv1 wtHr/PMNzujZbcVCQ0v8qN9XxlMe9SQeatlrRTvc3HdqThiFgnr3tFY3KeTVgI5d0KJiF0c+adhH 8lRsil/UaKPr85VsejevcS5L1Wyzc+n/qw5kqdkUXPp/NtdBRTukUb8DanS9Tt+JKdF+rcPz+ZEC PaxXULoVPuZz3dmn+l/yNf3W3zu7+Maus9B5+vYtRm+wNn9vbMwoT0UttswTEVMuV5+z3o8Ln8nW +XTUQKT8knjnrvAZqBTdPp4CVz45jLw8GCVnI2FnPF6ZjL31GHbs2LEDzXfdBIOzTFGrqgAAAABJ RU5ErkJggg== "
        preserveAspectRatio="none"
        height="23.8125"
        width="23.8125" />

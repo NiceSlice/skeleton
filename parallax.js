@@ -38,11 +38,11 @@ function bottom(bottomRange, scrollRange, scroll){
 function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 r(function(){
 
-    const scrollRangeH500 = [0, 250];
+    const scrollRangeH500 = [0, 350];
     const bottomRangeH500 = {
-        layer2: [6.5, 5],
-        layer3: [9.5, 6],
-        layer4: [14, 9],
+        layer2: [6.5, 2],
+        layer3: [9.5, 3],
+        layer4: [14, 6],
     }
 
 
