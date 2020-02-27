@@ -3,6 +3,7 @@ $layoutWidth: 70rem;
 body{
     margin: 0;
     height: 200vh;//
+    font-size: 1.5vw;
 }
 
 .layout{
@@ -22,14 +23,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1.5% 2%;
     z-index: 5;
 }
 
 .header-logo{
     z-index: 5;
-    height: 2.5rem;
-    width: 2.8rem;
+    width: 4%;
 }
 
 .header-contact{
@@ -38,9 +38,10 @@ body{
 }
 
 .header-icon{
-    height: 1.1rem;
+    width: 1.4vw;
     margin-right: 0.3rem;
 }
+
 
 
 
@@ -83,16 +84,26 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem;
+    padding: 5%;
     padding-top: 0;
 }
 
 .intro-text{
     color: #ffffff;
-    font-size: 1.1rem;
-    max-width: 36rem;
+    width: 50%;
 }
 
 .intro-img{
-    height: 14rem;
+    width: 40%;
+}
+
+@media screen and (min-width: 1120px){
+
+    body{
+        font-size: 1rem;
+    }
+
+    .header-icon{
+        width: 1rem;
+    }
 }
